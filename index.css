@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#todo-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+/*div{
+    align-items: center;
+    width: 100%; 
+}*/
+
+h2{
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+li{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#checkbox-input{
+    margin-right: 20px;
+}
+
+span{ 
+    margin-right: 15px;
+    margin-right: 20px;
+}
+
+#Edit-btn{
+    width: 60px;
+    color: white;
+    background-color: rgb(7, 88, 99);
+    border: 1px solid transparent;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+#Delete-btn{
+    width: 60px;
+    color: white;
+    background-color: rgb(60, 90, 90);
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+#submit-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 500px;
+    align-items: center;
+}
+
+#text-input{
+    margin-bottom: 15px;
+    height: 30px;
+    width: 350px;
+
+}
+
+#add-btn{
+    width: 100px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: rgb(48, 65, 68);
+    display: flex;
+    justify-content: center;
+    
+}
+#add-btn:hover{
+    background-color: rgb(83, 69, 69);
+}
