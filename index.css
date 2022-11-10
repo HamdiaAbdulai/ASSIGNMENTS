@@ -41,20 +41,20 @@ span{
     margin-right: 20px;
 }
 
-#Edit-btn{
-    width: 60px;
+.Edit-btn{
+    width: 80px;
     color: white;
-    background-color: rgb(7, 88, 99);
+    background-color: rgb(26, 9, 105);
     border: 1px solid transparent;
     margin-right: 15px;
-    border-radius: 6px;
+    border-radius: 5px;
 }
-#Delete-btn{
-    width: 60px;
+.Delete-btn{
+    width: 80px;
     color: white;
-    background-color: rgb(60, 90, 90);
+    background-color: rgb(163, 76, 152);
     border: 1px solid transparent;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 #submit-form{
@@ -77,11 +77,11 @@ span{
     color: white;
     border-radius: 6px;
     border: 1px solid transparent;
-    background-color: rgb(48, 65, 68);
+    background-color: rgb(22, 13, 148);
     display: flex;
     justify-content: center;
     
 }
 #add-btn:hover{
-    background-color: rgb(83, 69, 69);
+    background-color: rgb(7, 9, 107);
 }
